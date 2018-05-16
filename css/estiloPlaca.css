@@ -1,0 +1,21 @@
+#scroll_table {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+            
+#scroll_table thead{
+        display:block;
+}
+            
+#scroll_table tbody{
+        position:relative;
+        max-height:225px;
+        overflow-y: scroll;
+        display:block;
+}
+            
+#scroll_table td,th {
+        min-width:180px;
+        text-align: center;
+        border:1px solid black; 
+}
